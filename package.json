@@ -8,11 +8,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": ["erebus", "ai", "twitter", "bot", "autonomous"],
+  "keywords": [
+    "erebus",
+    "ai",
+    "twitter",
+    "bot",
+    "autonomous"
+  ],
   "author": "Erebus <erebus@theerebusai.com>",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.15.3",
+    "dotenv": "^16.4.7",
     "mongoose": "^8.5.3",
     "replicate": "^0.32.0",
     "twitter-api-sdk": "^1.2.1",
